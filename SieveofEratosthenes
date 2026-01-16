@@ -32,3 +32,4 @@ public class sieve {
         }
     }
 }
+//time comp = n+n log log n + n
