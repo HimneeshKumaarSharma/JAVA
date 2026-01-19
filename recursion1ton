@@ -1,0 +1,18 @@
+class forwardrecur {
+    public void printnumbers(int current,int n){
+        if (current>n)
+            return;
+        System.out.println(current +"");
+        printnumbers(current +1, n);
+    }
+}
+public class yo {
+    public static void main(String[] args) {
+        forwardrecur sol=new forwardrecur();
+        int n = 10;
+
+        sol.printnumbers(1, n);
+        System.out.println();
+    }
+    
+}
